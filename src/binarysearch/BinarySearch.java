@@ -10,7 +10,7 @@ public class BinarySearch {
         int end=array.length-1;
         int foundIndex=-1;
         
-        while(start<end)
+        while(start<=end)
         {
             int mid=(start+end)/2;
             if(array[mid]==value)
